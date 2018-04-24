@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'Calibre';
+    src: url('../fonts/CalibreWeb-Regular.eot');
+    src: url('../fonts/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CalibreWeb-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('../fonts/CalibreWeb-RegularItalic.eot');
+    src: url('../fonts/CalibreWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CalibreWeb-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('../fonts/CalibreWeb-Semibold.eot');
+    src: url('../fonts/CalibreWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CalibreWeb-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('../fonts/CalibreWeb-Bold.eot');
+    src: url('../fonts/CalibreWeb-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CalibreWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.home-link {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    color: transparent;
+    background: url(../img/mate-logo.png) left center no-repeat;
+    background-size: 75%;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color: transparent;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-menu {
+    margin: 0px auto;
+    overflow: hidden;
+    padding-left: 1.5rem;
+}
+
+.large-trunk {
+    width: 100%;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-container > * {
+    float: left;
+}
+
+html, body, pre, input {
+    font-family: 'Calibre', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.35em;
+}
+
+label {
+    font-size: 14px;
+}
+
+small {
+    line-height: 10px;
+    font-size: 13px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+figure{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+figure img{
+    width: 15%;
+    height: auto;
+}
+
+
+.col-md-3 {
+    padding-right: 1% !important;
+    padding-left: 1% !important;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 8px 0;
+    margin: 0px auto;
+    background: #fff;
+}
+
+.line-down{
+    position: relative;
+    margin-bottom: 1em;
+    padding: 0em;
+    border-bottom: 1px solid #999;
+    background: #fff;
+}
+
+.line-down:before, .line-down:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+}
+
+.line-down:before {
+    bottom: -7px;
+    left: 48%;
+    border-top-color: #777;
+    border-width: 7px;
+}
+
+.line-down:after {
+    bottom: -6px;
+    left: 48%;
+    border-top-color: #fff;
+    border-width: 7px;
+}
+
+ul.steps,
+ul.steps-name {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul.steps li,
+ul.steps-name li{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+ul.steps-name li {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+ul.steps-name li.active {
+    color: #487f6d;
+}
+
+div#content {
+    background-image: url('../../assets/img/fondo.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.payment-container {
+    min-height: 970px;
+}
+
+.payment-container > div {
+    background: #FFF;
+    border-top: 10px solid #c4c4c4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.payment-container div.content {
+    padding: 0 2.55em 0 2.55em;
+}
+
+#payment-form fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+#payment-form fieldset:not(:first-of-type) {
+    display: none;
+}
+
+button.btn-quantity,
+button.btn-recurrent-mode {
+    background: #9adcd6;
+    border-radius: 0;
+    margin-top: 12px;
+    min-height: 40px;
+    border-bottom: 3px solid #78b3ad;
+    font-size: 14px;
+}
+
+button.btn-recurrent-mode {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #487f6d;
+    transition: ease all 0.3s;
+}
+
+.container-quantity, .container-input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input.custom-quantity {
+    margin-top: 13px;
+    border-radius: 0;
+    height: 38px;
+}
+
+.btn.next, .btn.previous, .btn.submit {
+    margin-top: 10px;
+    background: #9adcd7;
+    padding: 10px 0;
+    border-radius: 0;
+    border-bottom: 3px solid #78b3ad;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #487f6d;
+    letter-spacing: 1px;
+    transition: ease all 0.3s;
+}
+
+.btn.next:hover,
+.btn.previous:hover,
+.btn.submit:hover,
+button.btn-recurrent-mode{
+    background: #78b3ad;
+    color: #FFF;
+}
+
+ul.steps li {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 20px;
+    background: #a3a2a2;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+ul.steps li.active {
+    background: #487f6d;
+}
+
+ul.steps li:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 3px;
+    left: 100%;
+    z-index: 1;
+}
+
+ul.steps li.active:after {
+    border-left: 30px solid #487f6d;
+}
+
+ul.steps li:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #a3a2a2;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+}
+
+button.btn-quantity:focus,
+button.btn-quantity:active,
+button.btn-recurrent-mode:focus,
+button.btn-recurrent-mode:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.container-input input {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+button.btn-quantity.bordered,
+button.btn-recurrent-mode.bordered {
+    border: 3px solid #487f6d;
+}
+
+p.error {
+    font-size: 14px;
+    color: #F44336;
+    padding-top: 35px;
+}
+
+p.error-form {
+    margin: 10px 0;
+    color: #F44336;
+    font-size: 14px;
+    display: none;
+    transition: ease all 0.5s;
+}
+
+.empty-field {
+    border: 1px solid #ca5e56;
+}
+
+h2.message-page {
+    color: #FFF;
+    text-shadow: 2px 2px 5px black;
+    text-align: right;
+    font-size: 35px;
+}
+
+.texto-gracias {
+    position: absolute;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
+    width: 51%;
+}
+
+.sombrado {
+    text-shadow: 4px 4px 6px #000000;
+    opacity: 0.9;
+}
+
+.parrafo-gracias {
+    color: #FFF;
+    font-size: 21px;
+    width: 51%;
+    margin-top: 40px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social ul li {
+    margin-bottom: 10px;
+}
+
+.social ul li img.redes {
+    max-width: 250px;
+}
+
+form#message-form textarea,
+form#message-form input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: #0d0d0d;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 0;
+    background: #dcdcdc;
+}
+
+form#message-form {
+    margin-top: 80px;
+}
+
+form#message-form label {
+    color: #FFF;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.text-promueve {
+    color: #ffffff;
+    text-shadow: 4px 4px 6px #000000;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-send {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+button#send-message {
+    background: #1C1C1C;
+    color: #FFF;
+    border-radius: 0;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+button#send-message:hover {
+    background: #000;
+}
+
+.btn-danger {
+    background: #F44336;
+    color: #FFF;
+}
+
+a.btn-fb, a.btn-tw, a.btn-ct {
+    width: 280px;
+    height: 60px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 0;
+    transition: ease all 0.5s;
+}
+
+a.btn-fb:focus, a.btn-tw:focus, a.btn-ct:focus{
+    outline: none;
+    color: #fff;
+}
+
+a.btn-fb {
+    background: #3f5aae;
+    border-bottom: 5px solid #3448a5;
+}
+
+a.btn-tw {
+    background: #5da0ef;
+    border-bottom: 5px solid #518fcb;
+}
+
+a.btn-ct {
+    background: #c74034;
+    border-bottom: 5px solid #911c13;
+}
+
+a.btn-fb:hover {
+    color: #FFF;
+    background: #38509a;
+}
+
+a.btn-tw:hover {
+    color: #FFF;
+    background: #5796e0;
+}
+
+a.btn-ct:hover {
+    color: #FFF;
+    background: #b7382d;
+}
+
+a.btn-fb i.fa,
+a.btn-tw i.fa,
+a.btn-ct i.fa {
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+@media (max-width: 1390px){
+    h2.texto-gracias {
+        font-size: 65px;
+        line-height: 30px;
+    }
+}

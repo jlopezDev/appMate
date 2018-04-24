@@ -1,0 +1,195 @@
+body.login {
+    background-color: #e8e8e8;
+}
+
+.container-login {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.login-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-box .login-form-1 div.logo {
+    margin-bottom: 30px;
+}
+
+.login-box .login-form-1 {
+    background: #FFF;
+    padding: 50px 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 3px #808080;
+}
+
+.login-box .login-form-1 div.logo img {
+    width: 100px;
+}
+
+.main-login-form {
+    position: relative;
+}
+
+.login-form-1 .form-control {
+    border: 0;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+    background: transparent;
+    color: #555555;
+    padding: 7px 0;
+    height:auto;
+}
+
+.login-form-1 .form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.login-form-1 .form-control:-moz-placeholder,
+.login-form-1 .form-control::-moz-placeholder,
+.login-form-1 .form-control:-ms-input-placeholder {
+    color: #999999;
+}
+
+.login-form-1 .form-group {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #989898;
+    padding-right: 20px;
+    position: relative;
+}
+
+.login-group {
+    background: #ffffff;
+    color: #999999;
+    border-radius: 8px;
+    padding: 10px 40px;
+}
+
+.login-group-checkbox {
+    padding: 5px 0;
+}
+
+.login-form-1 .login-button {
+    position: absolute;
+    right: -25px;
+    top: 30%;
+    background: #ffffff;
+    color: #999999;
+    padding: 11px 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    transition: all ease-in-out 500ms;
+    box-shadow: 0 0 3px #808080;
+}
+
+.login-form-1 .login-button:hover {
+    color: #555555;
+    transform: rotate(450deg);
+}
+
+.login-form-1 .login-button.clicked {
+    color: #555555;
+}
+
+.login-form-1 .login-button.clicked:hover {
+    transform: none;
+}
+
+.login-form-1 .login-button.clicked.success {
+    color: #2ecc71;
+}
+
+.login-form-1 .login-button.clicked.error {
+    color: #e74c3c;
+}
+
+.btn-danger {
+    color: #FFF;
+    background: #F44336;
+}
+
+.btn-danger:hover {
+    color: #FFF;
+    background: #e8382d;
+}
+
+div.logout-container {
+    padding-top: 35px;
+}
+
+div.logout-container a {
+    color: #FFF;
+    background: #607D8B;
+    padding: 10px 20px;
+}
+
+table.datatable {
+    border-bottom: 1px solid #CCC !important;
+}
+
+table.datatable thead td {
+    border-bottom: 1px solid #CCC !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_paginate {
+    padding-top: 25px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: inherit !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #ececec !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #313131 !important;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label {
+    font-weight: 400;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #CCC;
+}
+
+.dataTables_wrapper .dataTables_filter input:active,
+.dataTables_wrapper .dataTables_filter input:focus {
+    outline:  none;
+}
